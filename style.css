@@ -155,6 +155,21 @@ button {
     margin: 0 10px 20px;
 }
 
+/* Media Section */
+
+.media {
+    background-color: #152D20;
+}
+
+.mediaFlex {
+    display: flex;
+}
+
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
 /* Footer Styles */
 
 footer {
@@ -211,5 +226,14 @@ footer p {
 
     .secondImg {
         visibility: collapse;
+    }
+
+    .mediaFlex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h3 {
+        padding-bottom: 20px;;
     }
 }
