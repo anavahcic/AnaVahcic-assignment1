@@ -114,6 +114,7 @@ h2 {
     text-transform: uppercase;
 }
 
+/* I could find requested Google Font so I chose alternate font */
 .textContainer p {
     font-size: 1.2rem;
     font-family: 'Courier New', Courier, monospace;
@@ -121,6 +122,7 @@ h2 {
     margin: 25px 0;
 }
 
+/* I could find requested Google Font so I chose alternate font */
 button {
     border: none;
     background-color: #fcfcfc;
@@ -168,6 +170,7 @@ button {
    
 }
 
+/* I could find requested Google Font so I chose alternate font */
 h3 {
     text-align: center;
     text-transform: uppercase;
@@ -182,6 +185,7 @@ footer {
     color:#fcfcfc;
 }
 
+/* I could find requested Google Font so I chose alternate font */
 footer p {
     padding: 10px 0;
     font-family: 'Times New Roman', Times, serif;
@@ -239,6 +243,7 @@ footer p {
 
     .mediaFlex {
         display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
         max-width: min-content;
         margin-left: 200px;
